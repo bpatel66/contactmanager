@@ -78,9 +78,9 @@ class AddContact extends Component {
                 {value => {
                     const { dispatch } = value;
                     return (
-                        <div className="card mb-3">
+                        <div className="card text-light bg-dark mb-3">
                             <div className="card-header">Add Contact</div>
-                            <div className="card-body">
+                            <div className="card-body text-light bg-dark">
                                 <form
                                     onSubmit={this.onSubmit.bind(
                                         this,
@@ -117,7 +117,7 @@ class AddContact extends Component {
                                     <input
                                         type="submit"
                                         value="Add Contact"
-                                        className="btn btn-light btn-block"
+                                        className="btn btn-light btn-block bg-dark text-light"
                                     />
                                 </form>
                             </div>

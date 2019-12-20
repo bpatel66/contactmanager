@@ -12,7 +12,7 @@ const TextInputGroup = ({
     error
 }) => {
     return (
-        <div className="form-group">
+        <div className="form-group text-light bg-dark">
             <label htmlFor={name}>{label}</label>
             <input
                 type={type}

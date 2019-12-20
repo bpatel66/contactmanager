@@ -4,3 +4,21 @@ body {
 .navbar {
     background-color: black;
 }
+
+.form-control {
+    background-color: #343a40;
+}
+
+.form-control:focus {
+    background-color: #343a40;
+    color: white;
+}
+
+.form-control::placeholder,
+input {
+    color: white;
+}
+
+input::-ms-value {
+    color: white;
+}
