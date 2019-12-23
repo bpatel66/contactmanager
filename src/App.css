@@ -22,3 +22,12 @@ input {
 input::-ms-value {
     color: white;
 }
+
+.card-body::placeholder,
+input {
+    color: white;
+}
+
+.card-body::value {
+    color: white;
+}

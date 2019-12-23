@@ -94,7 +94,7 @@ class EditContact extends Component {
                 {value => {
                     const { dispatch } = value;
                     return (
-                        <div className="card mb-3">
+                        <div className="card mb-3 bg-dark text-light">
                             <div className="card-header">Edit Contact</div>
                             <div className="card-body">
                                 <form
@@ -133,7 +133,7 @@ class EditContact extends Component {
                                     <input
                                         type="submit"
                                         value="Update Contact"
-                                        className="btn btn-light btn-block"
+                                        className="btn btn-light btn-block bg-dark text-light"
                                     />
                                 </form>
                             </div>
